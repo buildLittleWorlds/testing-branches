@@ -1,76 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome!</title>
-  <style>
-    :root {
-      --bg: #0f172a;
-      --accent: #38bdf8;
-      --text: #e2e8f0;
-      --muted: #94a3b8;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-      background: radial-gradient(circle at top, #1e293b, var(--bg));
-      color: var(--text);
-      text-align: center;
-      padding: 2rem;
-    }
-    .card {
-      max-width: 640px;
-      background: rgba(30, 41, 59, 0.6);
-      border: 1px solid rgba(148, 163, 184, 0.2);
-      border-radius: 16px;
-      padding: 3rem 2.5rem;
-      backdrop-filter: blur(8px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      background: linear-gradient(90deg, var(--accent), #818cf8);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-    }
-    p {
-      font-size: 1.1rem;
-      line-height: 1.7;
-      color: var(--muted);
-      margin-bottom: 1.75rem;
-    }
-    a.cta {
-      display: inline-block;
-      padding: 0.75rem 1.75rem;
-      border-radius: 999px;
-      background: var(--accent);
-      color: #0f172a;
-      font-weight: 600;
-      text-decoration: none;
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
-    }
-    a.cta:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Welcome</title>
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(135deg, #052e16 0%, #14532d 50%, #166534 100%);
+color: #dcfce7;
+padding: 24px;
+}
+main.card {
+max-width: 640px;
+background: rgba(6, 78, 59, 0.55);
+border: 1px solid #22c55e;
+border-radius: 18px;
+padding: 48px 40px;
+box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+text-align: center;
+}
+h1 {
+color: #4ade80;
+font-size: 2.2rem;
+margin-bottom: 20px;
+}
+p {
+color: #bbf7d0;
+font-size: 1.05rem;
+line-height: 1.7;
+margin-bottom: 18px;
+}
+a.cta {
+display: inline-block;
+margin-top: 12px;
+padding: 12px 28px;
+background: #22c55e;
+color: #052e16;
+font-weight: 600;
+border-radius: 999px;
+text-decoration: none;
+transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+a.cta:hover {
+transform: translateY(-2px);
+box-shadow: 0 10px 20px rgba(34, 197, 94, 0.4);
+}
+</style>
 </head>
 <body>
-  <main class="card">
-    <h1>Welcome — we're glad you're here!</h1>
-    <p>
-      Thanks for stopping by. This little site is a work in progress, but there's
-      already plenty to explore. Take a look around, and don't hesitate to reach out
-      if you'd like to learn more.
-    </p>
-    <a class="cta" href="#">Get Started</a>
-  </main>
+<main class="card">
+<h1>Welcome — I'm so glad you're here!</h1>
+<p>
+This little corner of the web is all about something I genuinely love: building apps with AI. There's nothing quite like the feeling of taking a rough idea in my head and, with an AI collaborator at my side, watching it turn into something real, working, and useful.
+</p>
+<p>
+I love how AI lets me move fast, experiment freely, and bring even my most ambitious ideas to life without getting stuck. Every project is a chance to learn, to iterate, and to be surprised by what's possible when human creativity and machine intelligence work together. It's honestly become one of my favorite things to do.
+</p>
+<p>
+So welcome — whether you're here to see what I've made, to swap ideas, or just to explore. I hope you catch a bit of the same excitement I feel every time I sit down to create something new with AI.
+</p>
+<a class="cta" href="#">Get Started</a>
+</main>
 </body>
 </html>
